@@ -8,7 +8,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet" />
 	<link rel="stylesheet" href="css/normalize.css" />
 	<link rel="stylesheet" href="css/style.css" />
-	<script src="./js/main.js" defer></script>
+	<script src="./script/index.js" defer></script>
 </head>
 
 <body>
@@ -24,7 +24,7 @@
 							<img src="img/icon/user.svg" alt="User" />
 							Войти
 						</button>
-						<button class="btn btn-outline">
+						<button class="btn btn-outline" id="cart-button">
 							<img src="img/icon/shopping-cart.svg" alt="card" />
 							Корзина
 						</button>
@@ -54,7 +54,7 @@
 						<h3 class="products-header--title">Рестораны</h3>
 						<input type="text" class="products-header--search" placeholder="Поиск блюд и ресторанов" />
 					</div>
-					<div class="products-wrapper">
+					<div class="products-wrapper" id="reasts-container">
 						<a href="goods.html"  class="products-card">
 							<div class="products-card__image">
 								<img src="./img/rests/pizza-plus.jpg" alt="pizza-plus" />
